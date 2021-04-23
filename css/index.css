@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #333;
+    color: #f5f5dc;
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 2em;
+}
+
+.mainMenu {
+    font-family: 'Antonio', sans-serif;
+    padding-left: 1em;
+    width: 11em;
+    height: 100vh;
+    background-color: #3c3b77;
+    position: fixed;
+    left: 0;
+}
+
+.mainMenu, .componentsMenu, .docJsMenu, .langCsharpMenu {
+    list-style-type: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.mainMenu-items-top {
+    padding-top: 0.5em;
+}
+
+.mainMenu-items {
+    margin-top: 0.5em;
+}
+
+.componentsMenu, .docJsMenu, .langCsharpMenu {
+    margin-top: 0.5em;
+    margin-left: 2em;
+    display: none;
+    }
+
+.mainMenu__links {
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menuVisible {
+    display: block;
+    animation-name: opacityMenu;
+    animation-duration: 0.7s;
+}
+
+@keyframes opacityMenu {
+    0% {
+        opacity: 0%;
+    }
+    25% {
+        opacity: 25%;
+    }
+    50% {
+        opacity: 50%;
+    }
+    75% {
+        opacity: 75%;
+    }
+    100% {
+        opacity: 100%;;
+    }
+}
+
+.article {
+    margin-left: 14em;
+}
+
+.article-mainTitle, .article-titleType, .article-titleTheme {
+    font-family: 'Playfair Display', serif;
+}
+
+.article-mainTitle {
+    font-size: 3em;
+    margin-bottom: 0.8em;
+}
+
+.article-titleType {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.article-titleTheme {
+    font-size: 1em;
+    margin-bottom: 0.8em;
+}
+
+.article-description-cnt {
+    background-color: #504f4f2d;
+}
+
+.article-description {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.separation {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menu Horizontal</title>
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/table-material.css">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+
+        <!-- Font Menu -->
+        <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap" rel="stylesheet">
+        
+        <!-- Font mainTitle -->
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+
+        <!-- Font Table -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <header>
+            <nav>
+                <ul class="mainMenu">
+                    <li id="menuComponent" class="mainMenu-items-top">Componentes</li>
+                        <ul id="menuComponent-menu" class="componentsMenu">
+                            <li><a class="mainMenu__links" href="button.html">Buttton</a></li>
+                            <li><a class="mainMenu__links" href="card.html">Card</a></li>
+                            <li><a class="mainMenu__links" href="table-material.html">Table-Material</a></li>
+                        </ul>
+                    <li id="menuNodeJs" class="mainMenu-items">Documentacion NodeJs</li>
+                        <ul id="menuNodeJs-menu" class="docJsMenu">
+                            <li><a class="mainMenu__links" href="express.html">Express</a></li>
+                            <li><a class="mainMenu__links" href="ejs.html">Ejs</a></li>
+                            <li><a class="mainMenu__links" href="vue.html">Vue</a></li>
+                        </ul>
+                    <li id="menuCSharp" class="mainMenu-items">Lenguaje C#</li>
+                        <ul id="menuCSharp-menu" class="langCsharpMenu">
+                            <li><a class="mainMenu__links" href="poo.html">POO</a></li>
+                            <li><a class="mainMenu__links" href="functions.html">Funciones</a></li>
+                            <li><a class="mainMenu__links" href="variables.html">Variables</a></li>
+                        </ul>
+                </ul>
+            </nav>
+        </header>
+
+        <article class="article">
+            <h1 class="article-mainTitle">Table-Material.</h1>
+            <h2 class="article-titleType">Tipo de componente: Table.</h2>
+            <h3 class="article-titleTheme">Recomendado Para tema: Oscuro. </h3>
+
+            <div class="article-description-cnt">
+                <p class="article-description">Descripcion:</p>
+                <p class="article-description">Es una tabla elegante, con aspecto suave, perfecta para utilizar con un tema oscuro de web. Se recomienda para un aspecto visual mas acorde, utilizar la siguiente familia de google fonts:
+                <p class="article-description">html:</p>
+                <p class="article-description">&lt;link rel="preconnect" href="https://fonts.gstatic.com"&gt;</p>
+                <p class="article-description">&lt;link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"&gt;</p>
+                <p class="article-description">css:</p>
+                <p class="article-description">font-family: 'Roboto', sans-serif;</p>
+            </div>
+
+            <p class="article-description separation">Vista previa:</p>
+
+            <div class="tableContainer">
+                <table class="tableData">
+                    <tr class="tableData-row">
+                        <th class="tableData-th1 borderRow">Status</th>
+                        <th class="tableData-th2 borderRow">Signal Name</th>
+                        <th class="tableData-th3 borderRow">Severity</th>
+                        <th class="tableData-th4 borderRow">Stage</th>
+                    </tr>
+                    <tr class="tableData-row">
+                        <td class="tabledata-cell borderRow center">Online</td>
+                        <td class="tabledata-cell borderRow">Lorem ipsum, dolor sit amet Lorem.</td>
+                        <td class="tabledata-cell borderRow center">Medium</td>
+                        <td class="tabledata-cell borderRow center">Not triaded</td>
+                    </tr>
+                    <tr class="tableData-row">
+                        <td class="tabledata-cell borderRow center">Offline</td>
+                        <td class="tabledata-cell borderRow">The baseline row height is 52dp, and the column dirg.</td>
+                        <td class="tabledata-cell borderRow center">Minor</td>
+                        <td class="tabledata-cell borderRow center">Triaded</td>
+                    </tr>
+                    <tr class="tableData-row">
+                        <td class="tabledata-cell center">Offline</td>
+                        <td class="tabledata-cell">Lorem ipsum, dolor sit amet Lorem.</td>
+                        <td class="tabledata-cell center">Higher</td>
+                        <td class="tabledata-cell center">Triaded</td>
+                    </tr>
+                </table>
+            </div>
+
+        </article>
+
+        <script src="js/base.js"></script>
+
+    </body>
+
+</html>
